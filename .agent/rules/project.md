@@ -1,0 +1,11 @@
+# SwarSetu project rules
+- Python 3.11+, type hints everywhere, Pydantic for all data models.
+- Build RAG by hand (no LangChain/LlamaIndex). LangGraph is allowed only from Week 2.
+- Keep modules small and readable. No clever abstractions.
+- Every answer carries citations (document, page, short quote).
+- Never hardcode API keys. Use .env and python-dotenv.
+- Write pytest tests for the eligibility engine, conflicts and retrieval.
+- After each task, append a plain-language note to LEARNING.md.
+- Ask me before adding any new dependency.
+- Never invent scheme rules. Unknown criteria become TODOs with the source page to check.
+- Informational tool only. Never claim to give official or legal advice.
